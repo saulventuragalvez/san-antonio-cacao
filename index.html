@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>San Antonio - Cacao</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/image.jpg" type="image" />
+
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- Google Font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="header-top">
+        <div class="container">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+              <a href="mailto:san_antonio@gmail.com" class="contact-link"
+                >SanAntonioCacao@gmail.com</a
+              >
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+              <a href="tel:+593 960072586" class="contact-link">+593 960072586</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://wa.me/593960072586?text=Hola,%20deseo%20más%20información%20sobre%20tu%20producto%20de%20cacao" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61554239461801" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/san_antonio_cacao/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/?lang=es" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <a href="index.html">
+            <img  class="logos" src="img/Logo.png" alt="San Antonio Logo" />
+          </a>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li>
+                <a href="index.html" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link
+                  >Sobre Nosotros</a
+                >
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+
+              <li>
+                <a href="#footer" class="navbar-link" data-nav-link>Contacto</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a href="#" class="btn">Reservar una cita</a>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle menu"
+            data-nav-toggler
+          >
+            <ion-icon
+              name="menu-sharp"
+              aria-hidden="true"
+              class="menu-icon"
+            ></ion-icon>
+            <ion-icon
+              name="close-sharp"
+              aria-hidden="true"
+              class="close-icon"
+            ></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+      <article>
+        <!-- HERO SECTION -->
+
+        <section
+          class="section hero"
+          id="home"
+          style="background-image: url('./assets/images/hero-bg.png')"
+          aria-label="hero"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="section-subtitle">Bienvenido a San Antonio</p>
+
+              <h1 class="h1 hero-title">Disfruta del Mejor Cacao</h1>
+
+              <p class="hero-text">
+                Distribuye o sirve un exquisito cacao para tus clientes o
+                colaboradores. Descubre nuestras ofertas para mercados,
+                cafeterías, hoteles y restaurantes.
+              </p>
+
+              <form action="" class="hero-form">
+                <input
+                  type="email"
+                  name="email_address"
+                  aria-label="email"
+                  placeholder="Tu correo electrónico..."
+                  required
+                  class="email-field"
+                />
+                <button type="submit" class="btn">Recibir una oferta</button>
+              </form>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="img/banner.jpg"
+                width="587"
+                height="839"
+                alt="hero banner"
+                class="w-100 border-radius"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+
+        <section class="section service" id="service" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle text-center">Nuestros Cacaos</p>
+
+            <h2 class="h2 section-title text-center">Lo que Ofrecemos</h2>
+
+            <ul class="service-list">
+              <li>
+                <a href="premium.html">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <img
+                                src="img/premium.png"
+                                width="178"
+                                height="178"
+                                loading="lazy"
+                                alt="service icon"
+                                class="w-100"
+                            />
+                        </div>
+                        <div>
+                            <h3 class="h3 card-title">Cacao Premium</h3>
+                            <p class="card-text">
+                                Disfruta de nuestro cacao premium de la más alta calidad.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            
+
+              <li>
+                <a href="organico.html">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <img
+                        src="img/organico.png"
+                        width="178"
+                        height="178"
+                        loading="lazy"
+                        alt="service icon"
+                        class="w-100"
+                      />
+                    </div>
+  
+                    <div>
+                      <h3 class="h3 card-title">Cacao Orgánico</h3>
+  
+                      <p class="card-text">
+                        Descubre la frescura y pureza de nuestro cacao más orgánico.
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="img/sobre-nosotros.jpg"
+                width="470"
+                height="538"
+                loading="lazy"
+                alt="about banner"
+                class="w-100 border-radius"
+              />
+            </figure>
+
+            <div class="about-content">
+              <p class="section-subtitle">Sobre nosotros</p>
+
+              <h2 class="h2 section-title">Conoce San Antonio</h2>
+
+              <p class="section-text section-text-1">
+                En San Antonio, nos dedicamos a ofrecer la mejor experiencia de
+                cacao a nuestros clientes. Con años de experiencia en la
+                industria, nos enorgullece proporcionar cacao de alta calidad
+                que satisface los paladares más exigentes.
+              </p>
+
+              <p class="section-text">
+                Nuestro compromiso con la excelencia se refleja en cada taza que
+                servimos. Trabajamos directamente con productores de cacao de
+                todo el mundo para garantizar la frescura y la calidad en cada
+                grano.
+              </p>
+
+              <!-- <a href="#" class="btn">Leer más</a> -->
+            </div>
+          </div>
+        </section>
+
+        <!-- BLOG SECTION -->
+
+        <section class="section blog" id="blog" aria-label="blog">
+          <div class="container">
+            <p class="section-subtitle text-center">Explora nuestro blog</p>
+
+            <h2 class="h2 section-title text-center">Últimas Noticias</h2>
+
+            <ul class="blog-list">
+              <!-- Noticia 1 -->
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1180; --height: 800"
+                  >
+                    <img
+                      src="img/noticia-1.jpg"
+                      width="1180"
+                      height="800"
+                      loading="lazy"
+                      alt="Cómo disfrutar de un buen cacao en casa"
+                      class="img-cover"
+                    />
+
+                    <div class="card-badge">
+                      <ion-icon name="calendar-outline"></ion-icon>
+
+                      <time class="time" datetime="2022-03-24"
+                        >Marzo 24, 2023</time
+                      >
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="noticia1.html" class="card-title"
+                        >Cómo disfrutar de un buen cacao en casa</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Descubre los secretos para preparar el cacao perfecto en
+                      la comodidad de tu hogar. Desde la elección de los granos
+                      hasta el método de preparación, te lo contamos todo.
+                    </p>
+
+                    <a href="noticia1.html" class="card-link">Leer más</a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Noticia 2 -->
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1200; --height: 900"
+                  >
+                    <img
+                      src="img/noticia-2.jpg"
+                      width="1180"
+                      height="800"
+                      loading="lazy"
+                      alt="Cómo hacer chocolate artesanal en casa"
+                      class="img-cover"
+                    />
+
+                    <div class="card-badge">
+                      <ion-icon name="calendar-outline"></ion-icon>
+                      <time class="time" datetime="2023-05-15"
+                        >Mayo 15, 2023</time
+                      >
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="noticia2.html" class="card-title"
+                        >Cómo hacer chocolate artesanal en casa</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Sumérgete en el mundo del chocolate artesanal con nuestra
+                      guía completa. Desde la selección de cacao fino hasta la
+                      creación de exquisitas tabletas de chocolate, descubre el
+                      placer de la fabricación casera.
+                    </p>
+
+                    <a href="noticia2.html" class="card-link">Leer más</a>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Noticia 3 -->
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 1100; --height: 750"
+                  >
+                    <img
+                      src="img/noticia-3.jpg"
+                      width="1180"
+                      height="800"
+                      loading="lazy"
+                      alt="Explorando nuevos sabores de cacao"
+                      class="img-cover"
+                    />
+
+                    <div class="card-badge">
+                      <ion-icon name="calendar-outline"></ion-icon>
+                      <time class="time" datetime="2023-08-20"
+                        >Agosto 20, 2023</time
+                      >
+                    </div>
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="noticia3.html" class="card-title"
+                        >Explorando nuevos sabores de cacao</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Únete a nosotros en un viaje de descubrimiento mientras
+                      exploramos las variedades y aromas únicos de los granos de
+                      cacao. Desde los intensos hasta los afrutados, te llevamos
+                      a un viaje sensorial a través del mundo del cacao.
+                    </p>
+
+                    <a href="noticia3.html" class="card-link">Leer más</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer actualizado para un sitio web de cacao -->
+    <footer id="footer" class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <img src="img/Logo.png" alt="logo-footer" />
+
+            <p class="footer-text">
+              Disfruta del sabor auténtico del cacao, bueno para ti y para los
+              productores.
+            </p>
+
+            <div class="schedule">
+              <div class="schedule-icon">
+                <ion-icon name="time-outline"></ion-icon>
+              </div>
+
+              <span class="span">
+                Lunes - Sábado:<br />
+                9:00am - 10:00Pm
+              </span>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Otros enlaces</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Inicio</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#service" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Nuestro cacao</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#about" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Sobre nosotros</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Nuestros procesos</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#blog" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Blog de cacao</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Nuestros Productos</p>
+            </li>
+
+            <li>
+              <a href="premium.html" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Cacao Premium</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="organico.html" class="footer-link">
+                <ion-icon name="add-outline"></ion-icon>
+                <span class="span">Cacao Orgánico</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contáctenos</p>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <address class="item-text">
+                 Ecuador
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <a href="tel:+51987654321" class="footer-link">+593 960072586</a>
+            </li>
+
+            <li class="footer-item">
+              <div class="item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <a href="mailto:san_antonio@gmail.com" class="footer-link"
+                >SanAntonioCacao@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2023 Todos los derechos reservados.</p>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://wa.me/593960072586?text=Hola,%20deseo%20más%20información%20sobre%20tu%20producto%20de%20cacao" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61554239461801" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/san_antonio_cacao/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
